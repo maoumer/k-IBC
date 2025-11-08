@@ -5,7 +5,8 @@ This repo contains the code for our paper:
 
 1. M. A. Oumer, V. Murali, and M. Zamani, "k-Inductive and Interpolation-Inspired Barrier Certificates for Stochastic Dynamical Systems".
 
-If you install the TSSOS julia package in the code, please make these changes as a result of recent updates:
+
+If you install the TSSOS Julia package ([link](https://github.com/wangjie212/TSSOS)) in the code, please make these changes as a result of recent updates:
 * Groebnerbasis needs to be updated to GroebnerBasis.
 * For all the lines with `add_psatz!(...)`, change `model,_` to only `_`.
 
